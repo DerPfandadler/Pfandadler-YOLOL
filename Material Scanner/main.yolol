@@ -1,0 +1,6 @@
+:I=0 o="" s="" a="|" b="\n" d="\nAutoScan: ♥" e="\nAutoScan: ♡"
+:R=0 :o-=s if :AS>0 then s=d :U=:AS else s=e end :o+=s :A=:U goto2+:U
+i++ if i>=5 then i=0 goto4 end tv=0 o="" goto3
+i/=:R m=:M m-- m-- m-- m-- v=:V-:V%1 tv+=v :I++ o+=b+m+a+v goto5-:I<:R
+i/=:R :o=o+b+"Total Vol.:\n"+tv+s :U=0 :I=0 goto2
+:o="\nNothing found!"+s :U=0 :I=0 goto2
