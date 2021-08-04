@@ -35,6 +35,8 @@ Example:
 |ScanResults|R|0|0|
 |Material|M|""|""|
 |Volume|V|0|0|
+|Scan|S|0|0|
+|Reset|Re|0|0|
 ##
 
 ### Advanced YOLOL Chip:
