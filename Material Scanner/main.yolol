@@ -1,8 +1,8 @@
-:I=0 o="" s="" a=" Ore" b="\n" d="♥" e="♡" TO=20
+:I=0 o="" s="" a=" Ore" b="\n" c=1000 d="♥" e="♡" TO=20
 :o-=s :Re=1 if :AS>0 then s=d :U=:AS else s=e end :o=s+:o goto2+:U
 i=0 :Re=1 :A=1 :R=0 :S=1
 tv=0 o="" i++ if i>TO then i=0 :R=0 goto 5 end goto5-:S
-i/=:R :I=0 v=:V-:V%1 tv+=v o+=b+"① "+(:M-a)+b+"Vol.:"+v
-i/=:R :I=1 v=:V-:V%1 tv+=v o+=b+"② "+(:M-a)+b+"Vol.:"+v
+i/=:R :I=0 v=:V/c*c tv+=v o+=b+"① "+(:M-a)+b+"Vol.:"+v
+i/=:R :I=1 v=:V/c*c tv+=v o+=b+"② "+(:M-a)+b+"Vol.:"+v
 i/=:R :o=s+o+b+"Total Vol.:\n"+tv :S=0 :U=0 :A=0 :Re=1 goto2
 :o=s+"\nNothing found!" :S=0 :U=0 :A=0 :Re=1 goto2

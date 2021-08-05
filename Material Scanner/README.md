@@ -6,7 +6,7 @@ This YOLOL script allows the user to quickly and easily view the results of a sc
 # Requirements
 
  - [ ] 1x Material Point Scanner Setup
- - [ ] 1x Advanced YOLOL Chip
+ - [ ] 1x Basic YOLOL Chip
  - [ ] 1x Text Panel 24x24
  - [ ] 2x Buttons of your choice
 ### Optional:
@@ -20,7 +20,7 @@ For a "cleaner" data network and the ability to have longer and prettier device 
  - [ ] 1x Progress Bar 12x24
 
 ## How to set up the hardware 
-Connect your material point scanner and advanced YOLOL chip to the Data Network and arrange the Displays however you want.
+Connect your material point scanner and basic YOLOL chip to the Data Network and arrange the Displays however you want.
 Example:
 ![Example](https://cdn.discordapp.com/attachments/718534441428844615/840922334772985856/unknown.png)
 
@@ -39,7 +39,7 @@ Example:
 |Reset|Re|0|0|
 ##
 
-### Advanced YOLOL Chip:
+### Basic YOLOL Chip:
 |Default Name|New Name|Default Value|New Value|
 |-|-|-|-|                        
 |Chipwait|Chipwait|0|0|
