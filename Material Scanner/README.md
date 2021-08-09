@@ -8,12 +8,7 @@ This YOLOL script allows the user to quickly and easily view the results of a sc
  - [ ] 1x Material Point Scanner Setup
  - [ ] 1x Basic YOLOL Chip
  - [ ] 1x Text Panel 24x24
- - [ ] 2x Buttons of your choice
-### Optional:
-For a "cleaner" data network and the ability to have longer and prettier device field names add the following...
- - [ ] 1x Network Relay
- - [ ] 1x Memory Relay
- - [ ] 2x Memory Chips
+ - [ ] 1x Button of your choice
  
  And as a button label you can use...
  
@@ -48,7 +43,7 @@ Example:
 ### Text Panel 24x24:
 |Default Name|New Name|Default Value|New Value|
 |-|-|-|-|                        
-|PanelValue|o|""|""|
+|PanelValue|AutoScan|""|""|
 |PanelVariableResolution|PanelVariableResolution|1|1|
 ##
 
