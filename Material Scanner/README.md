@@ -54,18 +54,4 @@ Example:
 |ButtonOnStateValue|ButtonOnStateValue|1|1|
 |ButtonOffStateValue|ButtonOffStateValue|0|0|
 |ButtonStyle|ButtonStyle|0|1|
-
-### Button #2:
-|Default Name|New Name|Default Value|New Value|
-|-|-|-|-|                        
-|ButtonState|U|0|0|
-|ButtonOnStateValue|ButtonOnStateValue|1|1|
-|ButtonOffStateValue|ButtonOffStateValue|0|0|
-|ButtonStyle|ButtonStyle|0|1|
->When using buttons that don't have all the device fields listed above ignore the missing ones.
 > **ProTip:** You can use **Progress Bars** as labels for small buttons...
-
-
-## Advanced Setup
-
-SOON:tm:
