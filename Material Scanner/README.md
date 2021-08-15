@@ -1,3 +1,4 @@
+﻿<<<<<<< HEAD
 ﻿# Material Scanner script by Pfandadler
 This YOLOL script allows any user to quickly and easily view the results of a scan performed by a material point scanner.
 
