@@ -1,8 +1,10 @@
-:I=0 o="" s="" a=" Ore" f=" Crystal" b="\n" d="♥" e="♡" T=20
-:autoscan-=s :autoscan=s+:autoscan :Re=1 s=e goto2+:AS
-:autoscan-=s :autoscan=s+:autoscan i=0 :Re=1 :A=1 :R=0 :S=1
-tv=0 o="" i++ if i>T then i=0 :R=0 goto8 end goto5-:S
-:A=0 i/=:R :I=0 v=:V/1000*1000 tv+=v o+=b+"① "+(:M-a-f)+b+"Vol.:"+v
-i/=:R :I=1 v=:V/1000*1000 tv+=v o+=b+"② "+(:M-a-f)+b+"Vol.:"+v
-i/=:R :autoscan=s+o+b+"Total Vol.:\n"+tv :S=0 :Re=1 goto2+:AS
-:autoscan=s+"\nNothing found!" :S=0 :A=0 :Re=1 goto2+:AS
+j="\nMat|Stacks" o=j a=" Ore" b="\n" d="♥" e="♡" h="ium" TO=20
+:autoscan-=s s=e :autoscan=s+:autoscan f=1728000 :Re=1 :A=0 goto2+:AS
+:autoscan-=s s=d :autoscan=s+:autoscan g="ite" i=0 :I=0 :A=1 :R=0 :S=1
+tv=0 o=j c=" Crystal" i++ if i>TO then :A=0 goto9 end goto5-:S
+:A=0 i/=:R :I=0 v=:V/f*1000 tv+=v o+=b+"① "+(:M-a-c-g-h)+"|"+v
+i/=:R :I=1 v=:V/f*1000 tv+=v o+=b+"② "+(:M-a-c-g-h)+"|"+v
+i/=:R v=tv at="\nCLass:"+(4+v>10+v>11+v>18+v>26+v>124+v>270)
+i/=:R :autoscan=s+o+b+"Total Stacks:"+tv+at :S=0 :Re=1 goto2+:AS
+w="\n !WARNING!" i/=:R :autoscan=s+w+"\n\n «TIMEOUT»\n"+w goto2+:AS
+:autoscan=s+w+"\n\n  Nothing\n   Found\n"+w goto2+:AS 
