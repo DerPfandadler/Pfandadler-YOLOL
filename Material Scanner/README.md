@@ -45,7 +45,7 @@ I recommend a setup like this for your text panel, button and optional progress 
 
 |Default Name|New Name|Default Value|New Value|
 |-|-|-|-|                        
-|Active|A|0|0|
+|Active|L|0|0|
 |Index|I|0|0|
 |ScanResults|R|0|0|
 |Material|M|""|""|
