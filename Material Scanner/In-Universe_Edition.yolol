@@ -2,7 +2,7 @@ j="\nMat|Stacks" o=j a=" Ore" b="\n" d="#" e="~" h="ium" TO=20
 :autoscan-=s s=e :autoscan=s+:autoscan f=1728000 :Re=1 :L=0 goto2+:AS
 :autoscan-=s s=d :autoscan=s+:autoscan g="ite" i=0 :I=0 :L=1 :R=0 :S=1
 tv=0 o=j c=" Crystal" i++ if i>TO then :L=0 goto9 end goto5-:S
-:L=0 i/=:R :I=0 v=:V/f*1000 tv+=v o+=b+"1 "+(:M-a-c-g-h)+"|"+v
+i/=:R :I=0 v=:V/f*1000 tv+=v o+=b+"1 "+(:M-a-c-g-h)+"|"+v
 i/=:R :I=1 v=:V/f*1000 tv+=v o+=b+"2 "+(:M-a-c-g-h)+"|"+v
 i/=:R v=tv at="\nCLass:"+(4+v>10+v>11+v>18+v>26+v>124+v>270)
 i/=:R :autoscan=s+o+b+"Total Stacks:"+tv+at :S=0 :Re=1 goto2+:AS
