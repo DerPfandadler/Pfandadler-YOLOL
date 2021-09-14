@@ -45,13 +45,13 @@ I recommend a setup like this for your text panel, button and optional progress 
 
 |Default Name|New Name|Default Value|New Value|
 |-|-|-|-|                        
-|Active|L|0|0|
-|Index|I|0|0|
-|ScanResults|R|0|0|
-|Material|M|""|""|
-|Volume|V|0|0|
-|Scan|S|0|0|
-|Reset|Re|0|0|
+|Active|OL|0|0|
+|Index|OI|0|0|
+|ScanResults|OR|0|0|
+|Material|OM|""|""|
+|Volume|OV|0|0|
+|Scan|OS|0|0|
+Reset remains the same
 ##
 
 ### Basic YOLOL Chip:
@@ -63,14 +63,14 @@ I recommend a setup like this for your text panel, button and optional progress 
 ### Text Panel 24x24:
 |Default Name|New Name|Default Value|New Value|
 |-|-|-|-|                        
-|PanelValue|AutoScan|""|""|
+|PanelValue|Scan|""|""|
 |PanelVariableResolution|PanelVariableResolution|1|1|
 ##
 
 ### Button:
 |Default Name|New Name|Default Value|New Value|
 |-|-|-|-|                        
-|ButtonState|AS|0|0|
+|ButtonState|OT|0|0|
 |ButtonOnStateValue|ButtonOnStateValue|1|1|
 |ButtonOffStateValue|ButtonOffStateValue|0|0|
 |ButtonStyle|ButtonStyle|0|1|
