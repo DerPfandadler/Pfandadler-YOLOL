@@ -1,10 +1,12 @@
-j="\nMat|Stacks" o=j a=" Ore" b="\n" d="♥" e="♡" h="ium" TO=20
-:autoscan-=s s=e :autoscan=s+:autoscan f=1728000 :Re=1 :L=0 goto2+:AS
-:autoscan-=s s=d :autoscan=s+:autoscan g="ite" i=0 :I=0 :L=1 :R=0 :S=1
-tv=0 o=j c=" Crystal" i++ if i>TO then :L=0 goto9 end goto5-:S
-:L=0 i/=:R :I=0 v=:V/f*1000 tv+=v o+=b+"① "+(:M-a-c-g-h)+"|"+v
-i/=:R :I=1 v=:V/f*1000 tv+=v o+=b+"② "+(:M-a-c-g-h)+"|"+v
-i/=:R v=tv at="\nCLass:"+(4+v>10+v>11+v>18+v>26+v>124+v>270)
-i/=:R :autoscan=s+o+b+"Total Stacks:"+tv+at :S=0 :Re=1 goto2+:AS
-w="\n !WARNING!" i/=:R :autoscan=s+w+"\n\n «TIMEOUT»\n"+w goto2+:AS
-:autoscan=s+w+"\n\n  Nothing\n   Found\n"+w goto2+:AS 
+j="\nMat|Stacks" o=j a=" Ore" b="\n" d="♥" e="♡" h="ium" TO=20 
+:scan-=s s=e :scan=s+:scan f=1728000 :Reset=1 :OL=0 goto2+:OT
+:scan-=s s=d :scan=s+:scan g="ite" i=0 :OI=0 :OL=1 :OR=0 
+:OS=1 tv=0 o=j c=" Crystal" i++ if i>TO then :OL=0 goto9 end goto5-:OS
+:OL=0 i/=:OR :OI=0 v=:OV/f*1000 tv+=v o+=b+"① "+(:OM-a-c-g-h)+"|"+v
+i/=:OR :OI=1 v=:OV/f*1000 tv+=v o+=b+"② "+(:OM-a-c-g-h)+"|"+v
+i/=:OR v=tv at="\nCLass:"+(4+v>10+v>11+v>18+v>26+v>124+v>270)
+i/=:OR :scan=s+o+b+"Total Stacks:"+tv+at :OS=0 :Reset=1 goto2+:OT
+w="\n !WARNING!" i/=:OR :scan=s+w+"\n\n «TIMEOUT»\n"+w goto2+:OT
+:scan=s+w+"\n\n  Nothing\n   Found\n"+w goto2+:OT 
+
+// https://github.com/DerPfandadler/Pfandadler-YOLOL
