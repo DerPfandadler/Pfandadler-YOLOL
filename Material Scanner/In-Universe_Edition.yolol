@@ -1,10 +1,10 @@
 j="\nMat|Stacks" o=j a=" Ore" b="\n" d="#" e="~" h="ium" TO=20
-:autoscan-=s s=e :autoscan=s+:autoscan f=1728000 :Re=1 :L=0 goto2+:AS
-:autoscan-=s s=d :autoscan=s+:autoscan g="ite" i=0 :I=0 :L=1 :R=0 :S=1
-tv=0 o=j c=" Crystal" i++ if i>TO then :L=0 goto9 end goto5-:S
-:L=0 i/=:R :I=0 v=:V/f*1000 tv+=v o+=b+"1 "+(:M-a-c-g-h)+"|"+v
-i/=:R :I=1 v=:V/f*1000 tv+=v o+=b+"2 "+(:M-a-c-g-h)+"|"+v
-i/=:R v=tv at="\nCLass:"+(4+v>10+v>11+v>18+v>26+v>124+v>270)
-i/=:R :autoscan=s+o+b+"Total Stacks:"+tv+at :S=0 :Re=1 goto2+:AS
-w="\n !WARNING!" i/=:R :autoscan=s+w+"\n\n «TIMEOUT»\n"+w goto2+:AS
+:autoscan-=s s=e :autoscan=s+:autoscan f=1728000 :Re=1 :AC=0 goto2+:AS
+:autoscan-=s s=d :autoscan=s+:autoscan i=0 :IN=0 :AC=1 :SR=0 :SC=1
+g="ite" tv=0 o=j c=" Crystal" i++ if i>TO then goto9 end goto5-:SC
+i/=:SR :IN=0 v=:VO/f*1000 tv+=v o+=b+"1 "+(:MA-a-c-g-h)+"|"+v
+i/=:SR :IN=1 v=:VO/f*1000 tv+=v o+=b+"2 "+(:MA-a-c-g-h)+"|"+v
+i/=:SR v=tv at="\nCLass:" :sz=(4+v>10+v>11+v>18+v>26+v>124+v>270)
+i/=:SR :autoscan=s+o+b+"Total Stacks:"+tv+at+:sz :SC=0 :Re=1 goto2+:AS
+w="\n !WARNING!" i/=:SR :autoscan=s+w+"\n\n «TIMEOUT»\n"+w goto2+:AS
 :autoscan=s+w+"\n\n  Nothing\n   Found\n"+w goto2+:AS 
