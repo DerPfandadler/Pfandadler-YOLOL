@@ -45,12 +45,12 @@ I recommend a setup like this for your text panel, button and optional progress 
 
 |Default Name|New Name|Default Value|New Value|
 |-|-|-|-|                        
-|Active|L|0|0|
-|Index|I|0|0|
-|ScanResults|R|0|0|
-|Material|M|""|""|
-|Volume|V|0|0|
-|Scan|S|0|0|
+|Active|AC|0|0|
+|Index|IN|0|0|
+|ScanResults|SR|0|0|
+|Material|MA|""|""|
+|Volume|VO|0|0|
+|Scan|SC|0|0|
 |Reset|Re|0|0|
 ##
 
