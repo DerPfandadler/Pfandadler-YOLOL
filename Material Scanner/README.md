@@ -47,7 +47,7 @@ I recommend a setup like this for your text panel, button and optional progress 
 |-|-|-|-|                        
 |Active|OL|0|0|
 |Index|OI|0|0|
-|ScanResults|OR|0|0|
+|ScanResults|OX|0|0|
 |Material|OM|""|""|
 |Volume|OV|0|0|
 |Scan|OS|0|0|
@@ -63,7 +63,7 @@ Reset remains the same
 ### Text Panel 24x24:
 |Default Name|New Name|Default Value|New Value|
 |-|-|-|-|                        
-|PanelValue|Scan|""|""|
+|PanelValue|Scans|""|""|
 |PanelVariableResolution|PanelVariableResolution|1|1|
 ##
 
