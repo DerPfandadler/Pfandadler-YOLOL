@@ -36,7 +36,7 @@ It can be pasted anywhere **but** to enable that I had to replace the fancy char
 ## How to set up the hardware
 Connect your material point scanner and basic YOLOL chip to the Data Network and arrange the displays and buttons however you want.
 I recommend a setup like this for your text panel, button and optional progress bar:
-![Example](https://cdn.discordapp.com/attachments/718534441428844615/876405989425963048/unknown.png)
+![Example](https://media.discordapp.net/attachments/718534441428844615/876405821683163166/unknown.png)
 
 
 ## How to set up all device fields
